@@ -1,0 +1,189 @@
+/* 
+main color : #516069
+sub color: #c9d8df
+*/
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul { list-style-type: none;}
+a { text-decoration: none;}
+
+body {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.8em;
+  color: #444;
+}
+
+section { padding: 30px 0;}
+.img-responsive { width: 100%; }
+
+#main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/main_img.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+#main > .title_text {
+  background: #fff;
+  color: #516069;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 0 80px;
+  padding-bottom: 40px;
+  line-height: 1.4em;
+}
+#main > .title_text > h1 {
+  /* position: absolute; */
+  font-size: 45px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 40px;
+  color: #c9d8df;
+}
+.name { 
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 0;
+  line-height: 24px;
+}
+.line {
+  /* width: 50%; */
+  border-top: 2px solid #c9d8df;
+}
+.name > span { font-size: small;}
+.date {padding-top: 100px;}
+
+/* invitation*/
+#invitation {
+  width: 100%;
+  padding-top: 0;
+}
+#invitation > .title_box {
+  width: 100%;
+  height: 70px;
+  background: #c9d8df;
+}
+#invitation > .title_box > h1 {
+  font-weight: 800;
+  line-height: 70px;
+  font-size: 22px;
+  color: #516069;
+}
+#invitation > h2 {
+  font-size: 20px;
+  font-weight: 900;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+#invitation > .invition_txt {
+  padding-top: 10px;
+}
+#invitation > .last_txt {
+  padding-top: 50px;
+  padding-bottom: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#invitation .phone {
+  background: #516069;
+  margin-top: 50px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#invitation .phone .info {
+  color: #e0e0e0;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.info a{
+  color: #444;
+  color: #e0e0e0;
+}
+p, i { vertical-align: middle;}
+
+
+/* 갤러리 */
+#gallery > .title_box {
+  width: 100%;
+  height: 70px;
+  background: #c9d8df;
+  margin-bottom: 20px;
+}
+#gallery > .title_box > h1 {
+  font-weight: 800;
+  line-height: 70px;
+  font-size: 22px;
+  color: #516069;
+}
+#gallery .wedding_img li { padding: 5px 0;}
+#gallery .wedding_img li:nth-child(1) {padding-left: 5px;}
+#gallery .wedding_img li:nth-child(3) {padding-left: 5px;}
+#gallery .wedding_img li:nth-child(5) {padding-left: 5px;}
+#gallery .wedding_img li:nth-child(2) {padding-right: 5px;}
+#gallery .wedding_img li:nth-child(4) {padding-right: 5px;}
+#gallery .wedding_img li:nth-child(6) {padding-right: 5px;}
+
+
+/* location */
+#location {
+  padding-bottom: 0;
+}
+#location > .title_box {
+  width: 100%;
+  height: 70px;
+  background: #c9d8df;
+  margin-bottom: 20px;
+}
+#location > .title_box > h1 {
+  font-weight: 800;
+  line-height: 70px;
+  font-size: 22px;
+  color: #516069;
+}
+#location > .container {
+  padding-top: 15px;
+}
+.loaction_info {
+  width: 100%;
+  background: #c9d8df;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+.loaction_info > p:nth-child(1) {
+  padding: 30px 0 15px 0;
+  font-weight: 900;
+  font-size: 16px;
+  color: #516069;
+}
+.loaction_info > .subway {
+  padding-bottom: 15px;
+}
+
+.loaction_info > .bus {
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.loaction_info > .hall_address {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-top: 1px solid #516069;
+}
+.loaction_info > .hall_address > span {
+  font-weight: 700;
+  font-size: 13px;
+}
